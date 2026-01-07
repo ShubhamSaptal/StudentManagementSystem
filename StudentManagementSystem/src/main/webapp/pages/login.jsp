@@ -25,28 +25,27 @@
         <div class="card-body p-4">
           <h3 class="text-center mb-4">Login</h3>
 
-          <form>
+          <form action="login">
 
             <!-- Username -->
             <div class="mb-3">
               <label class="form-label">Username</label>
               <input type="text" class="form-control form-control-lg"
-                     placeholder="Enter username" required>
+                     placeholder="Enter username" required name="username">
             </div>
 
             <!-- Password -->
             <div class="mb-3">
               <label class="form-label">Password</label>
               <input type="password" class="form-control form-control-lg"
-                     placeholder="Enter password" required>
+                     placeholder="Enter password" required name="password">
             </div>
 
             <!-- Button -->
             <div class="d-grid mt-4">
-              <button type="submit" class="btn btn-primary btn-lg rounded-pill">
-                Login
-              </button>
+              <button type="submit" class="btn btn-primary btn-lg rounded-pill">Login</button>
             </div>
+            
 
           </form>
 
